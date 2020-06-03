@@ -29,11 +29,11 @@
                     </li>
                     <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa fa-question fa-lg"></i> Contact Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="bulletin.html"><i class="fa fa-newspaper-o fa-lg"></i> Bulletin </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#searchWebsite"><i class="fa fa-search fa-lg"></i> Search </a></li>
                 </ul>               
                                                
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                    <i class="fa fa-search fa-lg text-white"></i>
+                <form class="form-inline" id="searchWebsite">
+                    
                 </form>                        
             </div>
         </nav>
@@ -53,9 +53,8 @@
                         <div class="dropdown">
                             <i class="fa fa-home fa-lg"></i> Residents</a>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="residents.html">Covenants & Designs Rules</a>
+                                <a href="https://villagesofkapolei.org/wp-content/uploads/2020/02/Fourth-Restated-DCCR-Newspaper-Style.pdf" target="_blank">DCC&R's</a>
                             </div>
                         </div>
                         </li>
@@ -64,9 +63,10 @@
                         <div class="dropdown">
                             <i class="fa fa-credit-card fa-lg"></i> HOA Dues</a>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="https://villagesofkapolei.org/wp-content/uploads/2020/02/TOPS-PAY-INSTRUCTIONS-01012020.pdf" target="_blank">Tops Pay Instructions</a>
+                                <a href="https://villagesofkapolei.org/wp-content/uploads/2020/02/Tops-Owner-Access-Instructions-01012020.pdf" target="_blank">Tops Owner Access Instructions</a>
+                                <a href="https://owner.topssoft.com/VillagesofKapoeli/Account/Login" target="_blank">Tops Home Owner Portal</a>
+                                <a href="#paymentInformation">Payment and Dues Information</a>
                             </div>
                         </div>
                         </li>
@@ -75,9 +75,10 @@
                         <div class="dropdown">
                             <i class="fa fa-calendar fa-lg"></i> Events</a>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="#">Recreation Center Programs</a>
+                                <a href="#">Hall Rental</a>
+                                <a href="#">Pool Schedule</a>
+                                <a href="#">Neighborhood Watch</a>
                             </div>
                         </div>
                         </li>
@@ -86,8 +87,8 @@
                             <div class="dropdown">
                             <i class="fa fa-newspaper-o fa-lg"></i> News</a>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
+                                <a href="#">Newsletters</a>
+                                <a href="#">Community Bulletin Board</a>
                                 <a href="#">Link 3</a>
                             </div>
                         </div>
@@ -97,9 +98,9 @@
                             <div class="dropdown">
                             <i class="fa fa-address-card fa-lg"></i> About Us</a>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="#">Contact Information</a>
+                                <a href="#">Privacy Information</a>
+                                <a href="#">Forms</a>
                             </div>
                         </div>
                         </li>
@@ -109,58 +110,175 @@
         </nav>
 
         <div class="container">
-            <div class="row">
-                <div class="col-1"> </div>
+            <div class="row row-content">
+                <div class="col-1"> </div>      
                 <div class="col">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active">Template</li>
+                        <li class="breadcrumb-item active">HOA Dues</li>
                     </ol>
                 </div>
-            </div>
-        </div>
+            </div> 
+        </div> 
+            
     </header>
 
-   
-
     <div class="container">
-        <div class="row">
+        <div class="row row-content">
             <div class="col">
-                <h2>Home Owner's Association Dues</h2>
-
+                <h2 class="text-center">Home Owners Association Dues</h2>
             </div>
         </div>
     </div>
 
     <div class="container">
-        <div class="row">
-            <div class="col">
-                
+        <div class="row row-content">
+            <div class="col-md-8 mx-auto">
+                <h3 class="text-center" id="topsPayHeader"> Tops Pay</h3>
+                <p>The link below explains how to use TOPS Pay.  If you have not received your TOPS ONE Home Owner’s e-mail link, it is because we do not have your e-mail address.  Please visit the office during normal business hours Monday through Friday from 8:00 a.m. to 5:00 p.m. for assistance in setting up your online account.</p>
+                <ul id="covenants-designs-list">
+                    <li>
+                        <a href="https://villagesofkapolei.org/wp-content/uploads/2020/02/TOPS-PAY-INSTRUCTIONS-01012020.pdf" target="_blank">TOPS Pay Instructions 01-01-2020</a>
+                    </li>
+
+                    <li>
+                        <a href="https://villagesofkapolei.org/wp-content/uploads/2020/02/Tops-Owner-Access-Instructions-01012020.pdf" target="_blank">TOPS Owner Access Instructions 01-01-2020</a>
+                    </li>
+
+                    <li>
+                        <a href="https://owner.topssoft.com/VillagesofKapoeli/Account/Login" target="_blank">TOPS Home Owner Portal</a>
+                    </li>                                    
+                </ul>
+
             </div>
         </div>
     </div>
 
+    <div id="accordion">
+        <div class="card">
+            <div role="tab" class="card-header">
+                <h4>
+                    <a class="collapsed" data-toggle="collapse" data-target="#paymentInformation">
+                        Payment and Dues Information 
+                    </a>
+                </h4>
+                <div class="collapse show" id="paymentInformation" data-parent="#accordion">
+                    <div class="card-body">
+                        <p class="d-none d-sm-block">The Villages of Kapolei Association Dues are $42.00/month.</p>
 
+                        <p class="d-none d-sm-block">The following Villages have a Roadway/Driveway Assessment of $5.00; Iwalani, Malanai, Nehoa, & Makali’i; and $9.00 for Kekuilani.</p>
 
+                        <p class="d-none d-sm-block">Dues can be paid at the Villages of Kapolei Association’s Office located at 91-1111 Kama-aha Loop during normal business are M-F hours from 8-5.</p>
 
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-6 col-sm-2 offset-1 align-left">
-                    <a role="button" class="btn btn-link text-white" href="https://www.google.com/maps/place/Villages+of+Kapolei+Association/@21.3332567,-158.0748578,15z/data=!3m1!4b1!4m5!3m4!1s0x7c0063418f1da805:0x77beb3370b4c5aea!8m2!3d21.3332369!4d-158.0661245" target="_blank"><i class="fa fa-map-marker fa-lg"></i> Villages of Kapolei - Administration Office </br> 91-1111 Kama'aha Loop </br> Kapolei, HI 96707</a><br />
-                    <a role="button" class="btn btn-link text-white" href="tel:+18086744444" ><i class="fa fa-phone fa-lg"></i> 1-808-674-4444</a><br />
-                    <a role="button" class="btn btn-link text-white" href="mailto:association@villagesofkapolei.com" target="_blank"><i class="fa fa-envelope-o fa-lg"></i> association@villagesofkapolei.com</a>
+                        <p class="d-none d-sm-block">Payments are due on the first of each month. Late payments will incur a $25.00 assessment after 15th of the month regardless of when it posts from your account. Please plan your payment to arrive on the first of the month to avoid late fees. We accept cash, checks, and all major credit/debit cards. We take credit/debit card payments over the phone.</p>
+                   </div>
                 </div>
-                <div class="col text-right text-white">
+            </div>
+        </div>
+
+        <div class="card">
+            <div role="tab" class="card-header">
+                <h4>
+                    <a class="collapsed" data-toggle="collapse" data-target="#couponBook">
+                        Coupon Booklet
+                    </a>
+                </h4>
+                <div class="collapse" id="couponBook" data-parent="#accordion">
+                    <div class="card-body">
+                        <p class="d-none d-sm-block">We also use a coupon booklet that is mailed out each December for payments. These have your individual account information which you can use to mail your payment to the processing center.</p>
+
+                        <p class="d-none d-sm-block">This year we are only issuing 6 coupons to go green hoping that the majority of homeowners will opt for online payments through TOPSone payment portal for recurring checking or savings payments. This payment system will have <strong>no fees!</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div role="tab" class="card-header">
+                <h4>
+                    <a class="collapsed" data-toggle="collapse" data-target="#billPayer">
+                        Bank Bill Payer
+                    </a>
+                </h4>
+                <div class="collapse" id="billPayer" data-parent="#accordion">
+                    <div class="card-body">
+                        <p class="d-none d-sm-block">We also utilize Mutual of Omaha’s Drop box payment system. You may set this up through your banking, checking, or savings account without a fee or you can use a credit/debit card that may have fees associated. Be sure to check out the fine print to know when all transactions will take place.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div role="tab" class="card-header">
+                <h4>
+                    <a class="collapsed" data-toggle="collapse" data-target="#lateFees">
+                        Late Fees 
+                    </a>
+                </h4>
+                <div class="collapse" id="lateFees" data-parent="#accordion">
+                    <div class="card-body">
+                        <p class="d-none d-sm-block">Late fees will be assessed <strong>after the 15th of the month for $25.00 </strong> by VOKA.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div role="tab" class="card-header">
+                <h4>
+                    <a class="collapsed" data-toggle="collapse" data-target="#topsPayment">
+                        TOPS Home Owner's Payment Portal
+                    </a>
+                </h4>
+                <div class="collapse" id="topsPayment" data-parent="#accordion">
+                    <div class="card-body">
+                        <p class="d-none d-sm-block">Online payment is now available through TOPS. You can easily set up recurring payment to prevent late fees. Additionally, your online account provides a history of all your HOA payments beginning January 2020. Contact us directly if you have HOA payment history prior to this date. There is no additional fee to make payments through the TOPS Payment Portal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+    <footer class="site-footer" id="footerAddress">
+        <div class="container">
+            <div class="row row-content" >
+                <div class="col-4 align-center text-white">
                     <h5>Social</h5>
                     <a class="btn btn-social-icon btn-instagram text-white" href="https://www.instagram.com/villagesofkapoleiassociation/?hl=en"><i class="fa fa-instagram fa-lg"></i></a>
                     <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/VillagesOfKapoleiAssociation"><i class="fa fa-facebook fa-lg"></i></a>
                     <a class="btn btn-social-icon btn-google" href="https://www.yelp.com/biz/villages-of-kapolei-association-kapolei"><i class="fa fa-yelp fa-lg"></i></a>
                 </div>
-
-                              
+                <div class="col">
+                    <a role="button" class="btn btn-link text-white" href="https://www.google.com/maps/place/Villages+of+Kapolei+Association/@21.3332567,-158.0748578,15z/data=!3m1!4b1!4m5!3m4!1s0x7c0063418f1da805:0x77beb3370b4c5aea!8m2!3d21.3332369!4d-158.0661245" target="_blank"><i class="fa fa-map-marker fa-lg"></i> Villages of Kapolei - Administration Office </br> 91-1111 Kama'aha Loop </br> Kapolei, HI 96707</a><br />
+                    <a role="button" class="btn btn-link text-white" href="tel:+18086744444" ><i class="fa fa-phone fa-lg"></i> 1-808-674-4444</a><br />
+                    <a role="button" class="btn btn-link text-white" href="mailto:association@villagesofkapolei.com" target="_blank"><i class="fa fa-envelope-o fa-lg"></i> association@villagesofkapolei.com</a> <br />
+                    <a role="button" class="btn btn-link text-white"><i class="fa fa-building-o fa-lg"></i> Office Hours: Monday through Friday 8:00 a.m. to 5:00 p.m.</a>
+                </div>
+                
             </div>
         </div>
+    </footer>
+
+    <footer class="site-footer" id="footerPrivacy">
+        <div class="container">
+            <div class="row row-content" >
+                <div class="col-12 bg-secondary text-white" id="privacyFooter">
+                    <p>The Villages of Kapolei Association website is for informational purposes only.  We do not collect, sell, or use site visitors information.   Should you have questions regarding our VillagesofKapolei.org or VillagesofKapolei.com web sites please e-mail us at: association@villagesofkapolei.com
+
+                        or write to us at:
+                        
+                        Villages of Kapolei Association WebPage, 91-1111 Kama’aha Loop, Kapolei HI 96707
+
+                    </p>
+                </div>
+            </div>
+        </div>
+            
     </footer>
 
 
