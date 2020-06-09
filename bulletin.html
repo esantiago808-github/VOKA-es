@@ -14,6 +14,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         
 </head>
 
@@ -29,11 +30,11 @@
                     </li>
                     <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa fa-question fa-lg"></i> Contact Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="bulletin.html"><i class="fa fa-newspaper-o fa-lg"></i> Bulletin </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#searchWebsite"><i class="fa fa-search fa-lg"></i> Search </a></li>
                 </ul>               
                                                
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                    <i class="fa fa-search fa-lg text-white"></i>
+                <form class="form-inline" id="searchWebsite">
+                    
                 </form>                        
             </div>
         </nav>
@@ -53,31 +54,34 @@
                         <div class="dropdown">
                             <i class="fa fa-home fa-lg"></i> Residents</a>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="residents.html">Covenants & Designs Rules</a>
+                                <a href="https://villagesofkapolei.org/wp-content/uploads/2020/02/Fourth-Restated-DCCR-Newspaper-Style.pdf" target="_blank">DCC&R's</a>
                             </div>
                         </div>
                         </li>
 
                         <li class="nav-item"><a class="nav-link" href="hoa-dues.html">
-                        <div class="dropdown">
-                            <i class="fa fa-credit-card fa-lg"></i> HOA Dues</a>
-                            <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                            <div class="dropdown">
+                                <i class="fa fa-credit-card fa-lg"></i> HOA Dues</a>
+                                <div class="dropdown-content">
+                                    <a href="https://villagesofkapolei.org/wp-content/uploads/2020/02/TOPS-PAY-INSTRUCTIONS-01012020.pdf" target="_blank">Tops Pay Instructions</a>
+                                    <a href="https://villagesofkapolei.org/wp-content/uploads/2020/02/Tops-Owner-Access-Instructions-01012020.pdf" target="_blank">Tops Owner Access Instructions</a>
+                                    <a href="https://owner.topssoft.com/VillagesofKapoeli/Account/Login" target="_blank">Tops Home Owner Portal</a>
+                                    <a href="#paymentInformation">Payment and Dues Information</a>
+                                </div>
                             </div>
-                        </div>
                         </li>
                         
                         <li class="nav-item"><a class="nav-link" href="events.html">
                         <div class="dropdown">
                             <i class="fa fa-calendar fa-lg"></i> Events</a>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="membership.html">Membership</a>
+                                <a href="programs.html">Recreation Center Programs</a>
+                                <a href="banquet-rooms.html">Hall Rental</a>
+                                <a href="pool.html">Pool Schedule</a>
+                                <a href="neighborhood-watch.html">Neighborhood Watch</a>
+                                <a href="special-events.html">Special Events</a>
                             </div>
                         </div>
                         </li>
@@ -86,22 +90,20 @@
                             <div class="dropdown">
                             <i class="fa fa-newspaper-o fa-lg"></i> News</a>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="news.html">Newsletters</a>
+                                <a href="bulletin.html">Community Bulletin Board</a>                                
                             </div>
                         </div>
                         </li>
                         
                         <li class="nav-item"><a class="nav-link" href="about.html">
                             <div class="dropdown">
-                            <i class="fa fa-address-card fa-lg"></i> About Us</a>
-                            <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <i class="fa fa-address-card fa-lg"></i> About Us</a>
+                                <div class="dropdown-content">
+                                    <a href="contact.html">Contact Information</a>                                
+                                    <a href="forms.html">Forms</a>
+                                </div>
                             </div>
-                        </div>
                         </li>
                     </ul>
                 </div>
@@ -110,57 +112,179 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-1"> </div>
+                <div class="col-1"> </div>      
                 <div class="col">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active">Template</li>
+                        <li class="breadcrumb-item"><a href="news.html">News</a></li>
+                        <li class="breadcrumb-item active">Bulletin</li>
                     </ol>
                 </div>
-            </div>
-        </div>
-    </header>
+            </div> 
+        </div>            
+    </header>   
 
-   
-
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col">
-                <h2>Bulletin</h2>
-
+            <div class="col col-md-8 mx-auto">
+                <h2 class="text-center"> <img src="images/newspaper-icon.png" height="50px" /> Community Bulletin Board</h2>
             </div>
         </div>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col">
+            <div class="col-md-6 pt-3 pb-3 mx-auto">
+                <div class="card">
+                    <h3 class="card-header bg-info text-white text-center"> City and County Bulk Trash Services </h3>
+                    <div class="card-body">
+                        <p><em>Posted June 2, 2020</em></p>
+                        <p>The City and County of Honolulu has changed it’s Bulky Item Collection Service. Please open the <a href="https://villagesofkapolei.org/wp-content/uploads/2020/05/BULKY_APPT_BROCHURE.pdf" target="_blank"> Bulky_Appt_Brochure </a> for details. </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 pt-3 pb-3 mx-auto">
+                <div class="card">
+                    <h3 class="card-header bg-info text-white text-center"> Pool Lap Swim Hours</h3>
+                    <div class="card-body">
+                        <p><em>Posted June 2, 2020</em></p>
+                        <p>The pool will be opening for lap swim only, (no free swim or socializing) from 6:00 am - 8:00 am and 11:00 am - 5:00 pm. Swim test may be required. Please be patient as we work through this time and wear your mask/maintain social distancing.  Any questions please call the office 674-4444 dept. 2 from 9:00 am - 5:00 pm, Monday through Friday. </p> 
+
+                        <!-- Button trigger modal -->
+                        <a href="#lapPoolHoursFlierModal" data-toggle="modal">Pool Lap Swim Hours Filer </a>
+                            
+                    <!-- Modal -->
+                        <div class="modal fade" id="lapPoolHoursFlierModal" tabindex="-1" role="dialog" aria-labelledby="lapPoolHoursFlierModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="lapPoolHoursFlierModalLabel">Pool Lap Swim Hours Filer</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="images/lap-pool-hours-06-2020.jpg" alt="Pool Lap Swim Hours" width="475px" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 pt-3 pb-3 mx-auto">
+                <div class="card">
+                    <h3 class="card-header bg-info text-white text-center"> VOK Recreation Center Programs </h3>
+                    <div class="card-body">
+                        <p><em>Posted June 2, 2020</em></p>
+                        <p>See the <a href="programs.html" target="_blank"> Recreation page</a> <a href="events.html" target="_blank">or Events page</a>, or attached <a href="https://villagesofkapolei.org/wp-content/uploads/2019/12/Recreation-Center-Programs.pdf" target="_blank">flier</a> for more information on summer programs. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 pt-3 pb-3 mx-auto">
+                <div class="card">
+                    <h3 class="card-header bg-info text-white text-center">Wet n’Wild Water Park Tickets </h3>
+                    <div class="card-body">
+                        <p><em>Posted May 29, 2020</em></p>
+                        <p>Wet n’Wild Hawaii discount tickets are available at the Association office.</p>  
+                        
+                        <p>General admission tickets (ages 3 and up) are $30.00. </p>
+
+                        <p> Season Pass - 2020 is $45 per person.</p>                        
+
+                    <!-- Button trigger modal -->
+                        <a href="#wetnWildFlierModal" data-toggle="modal">Wet n'Wild filer </a>
+                            
+                    <!-- Modal -->
+                        <div class="modal fade" id="wetnWildFlierModal" tabindex="-1" role="dialog" aria-labelledby="wetnWildFlierModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="wetnWildFlierModalLabel">Wet n'Wild Flier</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="images/wet-n-wild-flier-05-29-2020.jpg" alt="Wet n'Wild Flier" width="475px"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+  
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 pt-3 pb-3 mx-auto">
+                <div class="card">
+                    <h3 class="card-header bg-info text-white text-center"> Board of Director Nomination</h3>
+                    <div class="card-body">
+                        <p><em>Posted April 1, 2020</em></p>
+                        <p>Serve on the Board of Directors. Candidate Nominations are due on May 22, 2020, 5:00 p.m. See the <a href="https://villagesofkapolei.org/wp-content/uploads/2020/04/BOD-nomination-flier.pdf" target="_blank">Board of Directors flier </a> for more information. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 pt-3 pb-3 mx-auto">
+                <div class="card">
+                    <h3 class="card-header bg-warning text-white text-center"> VOKA Corona Virus Updates</h3>
+                    <div class="card-body">
+                        <p><em>Posted March 16, 2020</em></p>
+                        <p>The Pool, Iwilani & A’eloa Play Ground Structures, and Kekuilani Gazebo are closed and all VOKA sponsored activities and programs are suspended until further notice due to Corona Virus concerns. We appreciate your understanding. </p>
+
+                        <p>Our Offices are open for payments. We would like for you to utilize the TOPs One system. If you need assistance to set up your account please call our office and we will be happy to update your email and send you a link.  Please call us at 808.674.4444 </p>
+                            
+                        <p>The Recreation Office is open currently as well to answer questions for Hall Rentals. </p>
+                    </div>
+                </div>
+            </div>           
+            
+        </div>        
+    </div>
+
+
+
+
+    <footer class="site-footer" id="footerAddress">
+        <div class="container">
+            <div class="row" >
+                <div class="col-4 align-center text-white">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram text-white" href="https://www.instagram.com/villagesofkapoleiassociation/?hl=en" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/VillagesOfKapoleiAssociation" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="https://www.yelp.com/biz/villages-of-kapolei-association-kapolei" target="_blank"><i class="fa fa-yelp fa-lg"></i></a>
+                </div>
+                <div class="col">
+                    <a role="button" class="btn btn-link text-white" href="https://www.google.com/maps/place/Villages+of+Kapolei+Association/@21.3332567,-158.0748578,15z/data=!3m1!4b1!4m5!3m4!1s0x7c0063418f1da805:0x77beb3370b4c5aea!8m2!3d21.3332369!4d-158.0661245" target="_blank"><i class="fa fa-map-marker fa-lg"></i> Villages of Kapolei - Administration Office </br> 91-1111 Kama'aha Loop </br> Kapolei, HI 96707</a><br />
+                    <a role="button" class="btn btn-link text-white" href="tel:+18086744444" ><i class="fa fa-phone fa-lg"></i> 1-808-674-4444</a><br />
+                    <a role="button" class="btn btn-link text-white" href="mailto:association@villagesofkapolei.com" target="_blank"><i class="fa fa-envelope-o fa-lg"></i> association@villagesofkapolei.com</a> <br />
+                    <a role="button" class="btn btn-link text-white"><i class="fa fa-building-o fa-lg"></i> Office Hours: Monday through Friday 8:00 a.m. to 5:00 p.m.</a>
+                </div>
                 
             </div>
         </div>
-    </div>
+    </footer>
 
-
-
-
-    <footer class="site-footer">
+    <footer class="site-footer" id="footerPrivacy">
         <div class="container">
-            <div class="row">
-                <div class="col-6 col-sm-2 offset-1 align-left">
-                    <a role="button" class="btn btn-link text-white" href="https://www.google.com/maps/place/Villages+of+Kapolei+Association/@21.3332567,-158.0748578,15z/data=!3m1!4b1!4m5!3m4!1s0x7c0063418f1da805:0x77beb3370b4c5aea!8m2!3d21.3332369!4d-158.0661245" target="_blank"><i class="fa fa-map-marker fa-lg"></i> Villages of Kapolei - Administration Office </br> 91-1111 Kama'aha Loop </br> Kapolei, HI 96707</a><br />
-                    <a role="button" class="btn btn-link text-white" href="tel:+18086744444" ><i class="fa fa-phone fa-lg"></i> 1-808-674-4444</a><br />
-                    <a role="button" class="btn btn-link text-white" href="mailto:association@villagesofkapolei.com" target="_blank"><i class="fa fa-envelope-o fa-lg"></i> association@villagesofkapolei.com</a>
-                </div>
-                <div class="col text-right text-white">
-                    <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-instagram text-white" href="https://www.instagram.com/villagesofkapoleiassociation/?hl=en"><i class="fa fa-instagram fa-lg"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/VillagesOfKapoleiAssociation"><i class="fa fa-facebook fa-lg"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="https://www.yelp.com/biz/villages-of-kapolei-association-kapolei"><i class="fa fa-yelp fa-lg"></i></a>
-                </div>
+            <div class="row" >
+                <div class="col-12 bg-secondary text-white" id="privacyFooter">
+                    <p>The Villages of Kapolei Association website is for informational purposes only.  We do not collect, sell, or use site visitors information.   Should you have questions regarding our VillagesofKapolei.org or VillagesofKapolei.com web sites please e-mail us at: association@villagesofkapolei.com
 
-                              
+                        or write to us at:
+                        
+                        Villages of Kapolei Association WebPage, 91-1111 Kama’aha Loop, Kapolei HI 96707
+
+                    </p>
+                </div>
             </div>
         </div>
+            
     </footer>
 
 
@@ -169,6 +293,9 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
     <!-- endbuild -->
 
