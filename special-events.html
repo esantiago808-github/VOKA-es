@@ -29,15 +29,10 @@
                     </li>
                     <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa fa-question fa-lg"></i> Contact Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="bulletin.html"><i class="fa fa-newspaper-o fa-lg"></i> Bulletin </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#searchWebsite"><i class="fa fa-search fa-lg"></i> Search </a></li>
-                </ul>               
-                                               
-                <form class="form-inline" id="searchWebsite">
-                    
-                </form>                        
+                    <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#searchWebsite"><i class="fa fa-search fa-lg"></i> Search </a></li>
+                </ul>                      
             </div>
         </nav>
-            
         
         <nav class="navbar navbar-expand-sm navbar-dark sticky-top" id="nav-primary">
             <!-- Main Navbar content -->
@@ -53,7 +48,7 @@
                         <div class="dropdown">
                             <i class="fa fa-home fa-lg"></i> Residents</a>
                             <div class="dropdown-content">
-                                <a href="residents.html">Covenants & Designs Rules</a>
+                                <a href="/residents.html#ccdr">Covenants & Designs Rules</a>
                                 <a href="https://villagesofkapolei.org/wp-content/uploads/2020/02/Fourth-Restated-DCCR-Newspaper-Style.pdf" target="_blank">DCC&R's</a>
                             </div>
                         </div>
@@ -120,101 +115,96 @@
                 </div>
             </div> 
         </div> 
-            
     </header>
 
-<h4 class="text-center">Special Community Events</h4>
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-6 mx-auto">
-            <div class="card">
-                
-                <h3 class="card-header bg-info text-white text-center"> Swim-In Movie </h3>
-                <div class="card-body">
-                    <p>Wednesday, June 10 @ sundown</p>
-                    <p>We will be hosting a family-friendly movie by the pool in the evening.Pack some  
-                    dinner, bring your suits, and watch from the pool deck while your keiki float in the pool.</p>
-
-                    <p>Remember it is six guests per household/lot. Any person without a card that goes on to the deck counts as a guest. </p>
-
-                    <p>As always, please be kind.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col mx-auto">
-            <div class="card">
-                
-                <h3 class="card-header bg-info text-white text-center"> Farmer's Market</h3>
-                <div class="card-body" id="specialEventsCardBody">
-                    <p>Sundays from 7:00 to 8:30 am </br>
-                        Kapolei Community Park  </p>
-
-                    <p>For low-cost fresh fruits, vegetables, fish and eggs, come to the Farmers Market. </p>
-                </div>
+    <div class="modal fade" id="searchWebsite" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form>
+                        <input class="form-control" id="searchWebsite" type="text" placeholder="Search.." />
+                        </br>
+                        <div class="form-group row">
+                            <div class="col">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>                
             </div>
         </div>
     </div>
 
-    </br>
-
-    <!-- Card Template
-    <div class="row">
-        <div class="col-md-6 mx-auto">
-            <div class="card">
-                <h3 class="card-header bg-info text-white text-center"> Bulky Items / Pickup </h3>
-                <div class="card-body">
-                    <p>
-                         </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col mx-auto">
-            <div class="card">
-                <h3 class="card-header bg-info text-white text-center"> Abandoned Vehicles</h3>
-                <div class="card-body">
-                    <p>
-                         </p>
-                </div>
-            </div>
-        </div>
-    </div>
--->
-
-
-</br>
-
-</div>
+    <h4 class="text-center">Special Community Events</h4>
 
     <div class="container">
         <div class="row">
-            <div class="col">
-                
+            <div class="col-md-6 pt-3 pb-3 mx-auto">
+                <div class="card">
+                    <img class="card-img-top" src="images/pool-movie-night-2.jpg" alt="Pool Movie Night">                    
+                    <h3 class="card-header bg-info text-white text-center"> Swim-In Movie </h3>
+                    <div class="card-body">
+                        <p>Wednesday, June 10 @ sundown</p>
+                        <p>We will be hosting a family-friendly movie by the pool in the evening.Pack some  
+                        dinner, bring your suits, and watch from the pool deck while your keiki float in the pool.</p>
+
+                        <p>Remember it is six guests per household/lot. Any person without a card that goes on to the deck counts as a guest. </p>
+
+                        <p>As always, please be kind.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col pt-3 pb-3 mx-auto">
+                <div class="card">  
+                    <img class="card-img-top" src="images/farmers_market.jpg" alt="Farmer's Market">                  
+                    <h3 class="card-header bg-info text-white text-center"> Farmer's Market</h3>
+                    <div class="card-body" id="specialEventsCardBody">
+                        <p>Sundays from 7:00 to 8:30 am </br>
+                            Kapolei Community Park  </p>
+
+                        <p>For low-cost fresh fruits, vegetables, fish and eggs, come to the Farmers Market. </p>
+                    </div>
+                </div>
             </div>
         </div>
+        </br>
     </div>
-
-
-
 
     <footer class="site-footer" id="footerAddress">
         <div class="container">
             <div class="row" >
-                <div class="col-4 align-center text-white">
-                    <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-instagram text-white" href="https://www.instagram.com/villagesofkapoleiassociation/?hl=en" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/VillagesOfKapoleiAssociation" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="https://www.yelp.com/biz/villages-of-kapolei-association-kapolei" target="_blank"><i class="fa fa-yelp fa-lg"></i></a>
+                <div class="col-5">
+                    <h5 class="text-center text-white">Contact Information</h5>
+                    <a role="button" class="btn btn-link text-white"
+                        href="https://www.google.com/maps/place/Villages+of+Kapolei+Association/@21.3332567,-158.0748578,15z/data=!3m1!4b1!4m5!3m4!1s0x7c0063418f1da805:0x77beb3370b4c5aea!8m2!3d21.3332369!4d-158.0661245"
+                        target="_blank"><i class="fa fa-map-marker fa-lg"></i> Villages of Kapolei - Administration
+                        Office </br> 91-1111 Kama'aha Loop </br> Kapolei, HI 96707</a><br />
+                    <a role="button" class="btn btn-link text-white" href="tel:+18086744444"><i
+                            class="fa fa-phone fa-lg"></i> 1-808-674-4444</a><br />
+                    <a role="button" class="btn btn-link text-white" href="mailto:association@villagesofkapolei.com"
+                        target="_blank"><i class="fa fa-envelope-o fa-lg"></i> association@villagesofkapolei.com</a>
+                    <br />
                 </div>
-                <div class="col">
-                    <a role="button" class="btn btn-link text-white" href="https://www.google.com/maps/place/Villages+of+Kapolei+Association/@21.3332567,-158.0748578,15z/data=!3m1!4b1!4m5!3m4!1s0x7c0063418f1da805:0x77beb3370b4c5aea!8m2!3d21.3332369!4d-158.0661245" target="_blank"><i class="fa fa-map-marker fa-lg"></i> Villages of Kapolei - Administration Office </br> 91-1111 Kama'aha Loop </br> Kapolei, HI 96707</a><br />
-                    <a role="button" class="btn btn-link text-white" href="tel:+18086744444" ><i class="fa fa-phone fa-lg"></i> 1-808-674-4444</a><br />
-                    <a role="button" class="btn btn-link text-white" href="mailto:association@villagesofkapolei.com" target="_blank"><i class="fa fa-envelope-o fa-lg"></i> association@villagesofkapolei.com</a> <br />
-                    <a role="button" class="btn btn-link text-white"><i class="fa fa-building-o fa-lg"></i> Office Hours: Monday through Friday 8:00 a.m. to 5:00 p.m.</a>
+                <div class="col-5 text-center text-white">
+                    <h5 class="text-center">Office Hours</h5>
+                    Monday through Friday </br>
+                    8:00 a.m. to 5:00 p.m.</br>
+                    Closed Weekends and Holidays
                 </div>
-                
+                <div class="col align-center text-white">
+                    <h5 class="text-center">Social</h5>
+                    <a class="btn btn-social-icon btn-instagram text-white"
+                        href="https://www.instagram.com/villagesofkapoleiassociation/?hl=en" target="_blank"><i
+                            class="fa fa-instagram fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-facebook"
+                        href="https://www.facebook.com/VillagesOfKapoleiAssociation" target="_blank"><i
+                            class="fa fa-facebook fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-google"
+                        href="https://www.yelp.com/biz/villages-of-kapolei-association-kapolei" target="_blank"><i
+                            class="fa fa-yelp fa-lg"></i></a>
+                </div>  
             </div>
         </div>
     </footer>
